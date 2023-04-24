@@ -5,3 +5,9 @@ servers:
     - name: "local" # the first environment is the default one
       urls: 
       - http://localhost:50051
+      
+securitySchemes:
+  - name: public
+    title: Public API
+    description: # you can also use the 'file:' instead of text to load a markdown from external file
+      text: The default authentication method - does not require any authentication. All the endpoints support anonymous users.
