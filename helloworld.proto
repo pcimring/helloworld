@@ -28,14 +28,13 @@ service Greeter {
 }
 
 // The request message containing the user's name.
-// [Example] {
-// "name": "Sally"
-// }
+// [Example] {"name": "Bill"}
 message HelloRequest {
   string name = 1;
 }
 
 // The response message containing the greetings
+// [Example] {"message": "Hello Bill"}
 message HelloReply {
   string message = 1;
 }
