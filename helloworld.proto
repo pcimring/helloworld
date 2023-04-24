@@ -28,6 +28,8 @@ service Greeter {
 }
 
 // The request message containing the user's name.
+// [Example]
+// "name": "Sally"
 message HelloRequest {
   string name = 1;
 }
