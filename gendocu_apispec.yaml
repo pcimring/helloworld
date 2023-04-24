@@ -4,7 +4,7 @@ servers:
     envs:
     - name: "local" # the first environment is the default one
       urls: 
-      - grpc://localhost:50051
+      - grpc://local.example.com:50051
       
 securitySchemes:
   - name: public
