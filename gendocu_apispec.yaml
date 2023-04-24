@@ -1,3 +1,4 @@
+spectype: gendocu
 servers:
   - selector: "*" # the * must be wrapped with ""
     envs:
