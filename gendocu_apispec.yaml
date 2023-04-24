@@ -3,4 +3,5 @@ servers:
   - selector: "*" # the * must be wrapped with ""
     envs:
     - name: "local" # the first environment is the default one
-      urls: localhost:50051
+      urls: 
+      - http://localhost:50051
